@@ -23,7 +23,7 @@ for i in range(10):
 
 ,but what if we want arbitrary ***n*** loopz?, than we can use recursive calls.
 The program make use of **Python's** *dictionaries* with ***tuple*** keys,
-that is ***hash** tables, for fast lookups, theoretically it works with any
+that is ***hash*** tables, for fast lookups, theoretically it works with any
 number of digits, although with *6* digits it starts running forever. Here is
 the only solution with *4* digits, with ***sqr[*** *0* ***][*** *0* ***]***
 equals to *1* and digits sum equals to *14*:
@@ -38,7 +38,7 @@ equals to *1* and digits sum equals to *14*:
 Running times for *5* digits are reasonable; the text example is found
 almost instantly, and one of the most lengthy scenarios: ``./ThePrimes.py 1 23``
 dumps *88* solutions for about **5** *minutes*. Here are the first and the
-last solutions:
+last ones:
 
 ```
 [1, 9, 4, 6, 3]
@@ -58,7 +58,7 @@ last solutions:
 ![](pix/rnvsr.png)
 
 The second problem **(The Castle)** is written in *JavaScript*, and the input
-seems like an issue without **NodeJS**, but it's quite fun to use your browser
+seems like an issue without **NodeJS**, but it's quite fun to use the browser
 as a debugger. Here is some console screenshot:
 
 ![](pix/TheCastle.png)
